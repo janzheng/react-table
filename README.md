@@ -135,6 +135,8 @@ These are all of the available props (and their default values) for the main `<R
   defaultPageSize: 20,
   showPageJump: true,
   expanderColumnWidth: 35,
+  collapseOnChange: true, // If true, data updates will automatically close expanded sub components
+  freezeWhenExpanded: false, // If true, data won't update until the subcomponents are closed
 
   // Controlled State Overrides (see Fully Controlled Component section)
   page: undefined,
